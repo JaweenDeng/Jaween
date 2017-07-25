@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/angular.min.js" ></script>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="font/iconfont.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<link rel="stylesheet" href="css/xinwen.css" />	
+	</head>
+	<body >
+		<div class="header">
+			<div class="left">
+				<i class="iconfont icon-wangyi wangyi"></i>
+				<span class="wenzi">网易游戏</span>
+			</div>
+			<div class="box">炉石传说盒子</div>
+			<div class="iconfont icon-shousuo shousuo"></div>
+		</div>
+		<div class="images">
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><img src="img/2.jpg" /></div>
+			        <div class="swiper-slide"><img src="img/23.jpg" /></div>
+			        <div class="swiper-slide"><img src="img/33.jpg" /></div>
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+			    <!-- 如果需要滚动条 -->
+			    <div class="swiper-scrollbar"></div>
+			</div>		
+		</div>		
+		<div ng-app="app">
+		<div class="" ng-controller="aa">
+			<div class="content" ng-switch="toggle">
+				<div class="page1" ng-switch-default>
+			
+		<div class="content">
+			<div class="content-images">
+				<div>
+					<img src="img/nav1.png">	
+				</div>
+				<div>
+					<img src="img/nav2.png">				
+				</div>
+				<div>
+					<img src="img/nav3.png">				
+				</div>
+				<div>
+					<img src="img/nav4.png">				
+				</div>
+			</div>
+			<div class="content-wenzi">
+				<div class="wz">奥西斯神庙</div>
+				<div class="wz">奥达曼</div>
+				<div class="wz">废墟之城</div>
+				<div class="wz">探险者大厅</div>
+				<div class="wz">最强随从</div>
+				<div class="wz">黄金总决赛</div>
+				<div class="wz">组卡器</div>
+				<div class="wz">传说奇迹贼</div>
+			</div>								
+		</div>
+		<div class="dongtai">
+			<h1>最新动态</h1>
+			<div> Pavel VS 悟空丶特兰克斯小组赛第五轮2017炉石传说中欧对抗赛</div>
+			<div> Kolento VS OMXHope 小组赛第五轮 2017炉石传说中欧对抗赛</div>
+			<div> Rdu VS SuperJJ 小组赛第五轮 2017炉石传说中欧对抗赛</div>
+			<div>营地丨驴鸽 VS Xixo 小组赛第五轮 2017炉石传说中欧对抗赛</div>
+			<div>牌库压缩机赫米特乱入 安戈洛元素任务德鲁伊卡组  </div>
+		</div>
+		<div class="zhuangti">
+			<h1>专题推荐</h1>
+			<div class="zhuangti-images">
+				<div>
+					<img src="img/pic1.png">
+					<p>传说埋葬环牧</p>
+				</div>
+				<div>
+					<img src="img/pic2.png">
+					<p>传说过载萨</p>
+				</div>
+				<div>
+					<img src="img/pic3.png">
+					<p>新版遗物园</p>
+				</div>
+				<div>
+					<img src="img/pic4.png">
+					<p>亡语随从贼</p>
+				</div>
+				<div>
+					<img src="img/pic5.png">
+					<p>第五宇宙战</p>
+				</div>
+				<div>
+					<img src="img/pic6.png">
+					<p>娱乐龙牧</p>
+				</div>
+				<div>
+					<img src="img/pic7.png">
+					<p>改良版龙牧</p>
+				</div>
+				<div>
+					<img src="img/pic8.png">
+					<p>无战歌奴隶</p>
+				</div>				
+			</div>
+			<div class="zhuangti-wenzi">
+				<div>官方版下载</div>
+				<div>新手教程</div>
+				<div>游戏介绍</div>
+				<div>游戏特色</div>
+				<div>界面介绍</div>
+				<div>游戏规则</div>
+				<div>卡牌介绍</div>
+				<div>九大英雄</div>
+				<div>快速入门</div>
+				<div>日常任务</div>
+				<div>卡牌打造</div>
+				<div>战网多开</div>
+				<div>竞技场模式</div>
+				<div>对战模式</div>
+				<div>冒险模式</div>
+				<div>乱斗模式</div>
+			</div>
+		</div>
+		<div class="gonggao">
+			<h1>公告活动</h1>
+			<div class="gonggao-wenzi">
+				<div>常见问题</div>
+				<div>活动参与</div>
+				<div>数据排名</div>
+				<div>意见反馈</div>
+			</div>
+			<div class="gonggao-list">
+				<div>2016年竞技场12胜七月排行榜(7.1-7.10)</div>
+				<div>炉石传说2016年竞技场12胜六月排行榜</div>
+				<div>炉石传说2016年竞技场12胜五月排行榜</div>
+				<div>炉石传说2016年竞技场12胜四月排行榜</div>
+				<div>2016炉石传说黄金超级联赛夏季赛计划公布</div>
+				<div class="gonggao-more">更多公告>></div>
+			</div>
+		</div>
+		<div class="xinwen">
+			<h1>新闻资讯</h1>
+			<div>谁能开走法拉利？炉石中欧对抗赛分组名单公布</div>
+			<div>安戈洛卡包免费送!祝贺炉石玩家迎来七千万玩家</div>
+			<div>《炉石传说》世界杯4月27日直播预告</div>
+			<div>2017中欧对抗赛中国选手阵容介绍</div>
+			<div>2017中欧对抗赛欧洲全明星选手阵容介绍</div>
+			<div class="xinwen-more">更多资讯>></div>
+		</div>
+		<div class="shipin">
+			<h1>视频直播</h1>
+			<div class="shipin-image">
+				<div><img src="img/xinwen1.png"></div>
+				<div><img src="img/xinwen2.png"></div>
+				<div><img src="img/xinwen3.png"></div>
+				<div><img src="img/xinwen4.png"></div>
+			</div>
+			<div class="shipin-more">更多视频>></div>
+		</div>
+				</div>
+				<div class="page2" ng-switch-when="新闻" >
+					<div class="header1">
+						<div>专区首页</div>
+						<div>新闻资讯</div>	
+						<div>攻略教程</div>	
+						<div>视频直播</div>
+					</div>
+					<div class="content1">
+						<h1>今日新闻</h1>
+						<div class="news1">
+							<p>谁能开走法拉利？炉石中欧对抗赛分组名单公布</p>
+							<img src="img/new1.jpg" />
+						</div>
+						<div class="news1">
+							<p>安戈洛卡包免费送!祝贺炉石玩家迎来七千万玩家</p>
+							<img src="img/news2.jpg" />
+						</div>
+						<div class="news1">
+							<p>《炉石传说》世界杯2017年4月27日直播预告</p>
+							<img src="img/new3.jpg" />
+						</div>
+						<div class="news1">
+							<p>绝非普通小偷和刺客 加基森玉莲帮的小秘密</p>
+							<img src="img/new4.jpg" />
+						</div>
+						<div class="news1">
+							<p>设计师讲解 优化竞技场体验的两种思路</p>
+							<img src="img/new5.jpg" />
+						</div>
+						<div class="news1">
+							<p>炉石传说黄金公开赛南京站观战指南</p>
+							<img src="img/new6.jpg" />
+						</div>
+					</div>
+				</div>
+				
+				<div class="page3" ng-switch-when="攻略">
+					<div class="header1">
+						<div>专区首页</div>
+						<div>新闻资讯</div>	
+						<div>攻略教程</div>	
+						<div>视频直播</div>
+					</div>
+					<div class="content1">
+						<h1>今日攻略</h1>
+						<div class="news1">
+							<p>太阳裂片莱拉垃圾吗 非沉默流核弹牧师卡组_炉石攻略秘籍</p>
+							<img src="img/gl1.jpg" />
+						</div>
+						<div class="news1">
+							<p>牌库压缩机赫米特乱入 安戈洛元素任务德鲁伊卡组</p>
+							<img src="img/gl2.jpg" />
+						</div>
+						<div class="news1">
+							<p>丛林猎人赫米特有什么用 神抽海盗战卡组告诉你</p>
+							<img src="img/gl3.jpg" />
+						</div>
+						<div class="news1">
+							<p>被低估的水文学家帮安戈洛奶骑接受圣光</p>
+							<img src="img/gl4.jpg" />
+						</div>
+						<div class="news1">
+							<p>派烙斯的元素烈焰喷涌 安戈洛宇宙法卡组推荐</p>
+							<img src="img/gl5.jpg" />
+						</div>
+						<div class="news1">
+							<p>安戈洛狂野英雄乱斗怎么发家致富 外服十二胜卡组推荐</p>
+							<img src="img/gl6.jpg" />
+						</div>
+					</div>
+				</div>
+				<div class="page4" ng-switch-when="视频">
+					<div class="header1">
+						<div>专区首页</div>
+						<div>新闻资讯</div>	
+						<div>攻略教程</div>	
+						<div>视频直播</div>
+					</div>
+					<div class="content1">
+						<h1>今日视频</h1>
+						<div class="news1">
+							<p>5.9 OMXHope VS StanCifka 小组赛第六轮 2017炉石传说中欧对抗赛</p>
+							<img src="img/sp1.png" />
+						</div>
+						<div class="news1">
+							<p>5.9 悟空丶特兰克斯 VS Kolento 小组赛第六轮 2017炉石传说中欧对抗赛</p>
+							<img src="img/sp2.png" />
+						</div>
+						<div class="news1">
+							<p>5.9 哈姆士郎 VS Pavel 小组赛第六轮 2017炉石传说中欧对抗赛</p>
+							<img src="img/sp3.png" />
+						</div>
+						<div class="news1">
+							<p>5.9 SuperJJ VS ahqDogggg 小组赛第六轮 2017炉石传说中欧对抗赛</p>
+							<img src="img/sp4.png" />
+						</div>
+						<div class="news1">
+							<p>这卡有多强：妈妈这里有只大虫虫</p>
+							<img src="img/sp5.png" />
+						</div>
+						<div class="news1">
+							<p>2017炉石传说中欧对抗赛 整场比赛录像合辑</p>
+							<img src="img/sp6.png" />
+						</div>
+					</div>
+				</div>
+				<div class="page5" ng-switch-when="page5">
+					5
+				</div>
+			</div>
+			<div class="nav">
+				
+					<div ng-click="aa($event)">首页</div>
+					<div ng-click="aa($event)">新闻</div>
+					<div ng-click="aa($event)">攻略</div>
+					<div ng-click="aa($event)">视频</div>
+					<div ng-click="aa($event)">论坛</div>
+				
+			</div>
+		</div>
+	</div>	
+		<script type="text/javascript" src="js/jquery-3.2.0.min.js" ></script>
+		<script type="text/javascript" src="js/swiper-3.4.2.jquery.min.js" ></script>
+		<script>
+		var mySwiper = new Swiper ('.swiper-container', {
+			autoplay : 2000,
+			speed:300,
+		    direction: 'horizontal',
+		    loop: true,
+		    mousewheelControl : false,
+		    // 如果需要分页器
+		    pagination: '.swiper-pagination',
+		    paginationClickable :true,
+		    
+		    // 如果需要前进后退按钮
+		    nextButton: '.swiper-button-next',
+		    prevButton: '.swiper-button-prev',
+		    
+		    // 如果需要滚动条
+		   // scrollbar: '.swiper-scrollbar',
+		 })
+	</script>
+	<script>
+		var app = angular.module("app",[]);
+			app.controller("aa",function($scope){
+				$scope.aa = function($event){
+					$scope.toggle = $event.target.innerHTML;
+				}
+			})
+	</script>
+	
+	
+	</body>
+</html>

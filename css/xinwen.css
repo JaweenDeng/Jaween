@@ -1,0 +1,48 @@
+.header1{
+	width:100%;
+	display: flex;
+}
+.header1 div{
+	width: 21.5%;
+	margin-left:2.8%;
+	background-color: rgb(254,208,135);
+	height: 50px;
+	line-height: 50px;
+	font-size:10px;
+	text-align: center;
+	margin-top:10px;
+}
+.content1{
+	width: 100%;
+	margin-top:10px;
+}
+.content1 h1{
+	color:red;
+	height: 50px;
+	line-height: 50px;
+	font-size: 25px;
+	margin:15px;
+}
+.news1{
+display: flex;	
+width:96%;
+height: 100px;
+background-color: rgb(243,243,243);
+border-radius: 10px;
+
+margin:.8%;
+margin: 10px auto;
+}
+.news1 p{
+	font-size: 15px;
+	line-height: 30px;
+	width: 65%;
+	padding: 5px;
+
+}
+.news1 img{
+	display: inline-block;
+	width: 100px;
+	height:100px;
+	margin-left: 5%;
+}
